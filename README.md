@@ -2,6 +2,9 @@
 
 Effectively detect objects from a live video stream, video file, or image by utilizing the You Only Look Once (YOLO) Algorithm then classify each object with a COCO library, finally accelerate processing by utilizing PyTorch and CUDA drivers to harness GPU Processing.
 
+Additional Documentation on my Google Docs file located [here](https://docs.google.com/document/d/1PbSLxxjpJVySFz90B8xDVCgukfnXE8T-18ikFa4Im5U/edit?usp=sharing)
+
+Also my half-assed attempt at explaining how the Yolo Algorhitm works [here](https://docs.google.com/document/d/1YhXyALjIhVPoSHYdTMZpPfFjiKQeeyoZsVEdrhWfBfI/edit?usp=sharing)
 
 ## Getting Started
 
