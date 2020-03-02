@@ -6,6 +6,12 @@ Additional Documentation on my Google Docs file located [here](https://docs.goog
 
 Also my half-assed attempt at explaining how the Yolo Algorhitm works [here](https://docs.google.com/document/d/1YhXyALjIhVPoSHYdTMZpPfFjiKQeeyoZsVEdrhWfBfI/edit?usp=sharing)
 
+BFollowed the guide from Ayoosh Kathuria on how to Implement YoloV3 with Pytorch from Scratch.
+His article was very informative and insightful.
+
+Although his code is very raw and unelegant, it performs quite well and after hours of headaches, you're able to break it down.
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
