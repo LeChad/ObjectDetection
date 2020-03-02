@@ -1,4 +1,5 @@
 .gitignore
+.idea
 additional/coco.names
 configuration/yolov3.cfg
 weights/yolov3.weights
