@@ -8,7 +8,7 @@ Effectively detect objects from a live video stream, video file, or image by uti
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-### Prerequisites
+### Prerequisites and Installations
 
 Have an NVIDIA CUDA-Driver capable system. This usually means having some form of NVIDIA Graphics Card installed in your system.
 
@@ -18,15 +18,12 @@ Have an NVIDIA CUDA-Driver capable system. This usually means having some form o
 * Virtualenvwrapper (Optional)
 
 
-### Installing
-
-Install Nvidia CUDA Drivers
-
+### Install Nvidia CUDA Drivers:
 ```
 sudo apt install nvidia-cuda-toolkit
 ```
 
-
+### Install Yolov3 weights & configuration, and COCO Datasets:
 Download, rename and relocate necessary weights, datasets, and yolo configuration files into required project directories.
 
 * Relocate yolov3.cfg to projects configuration directory
@@ -41,6 +38,12 @@ wget https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
 ```
 
+### Install Pip3 requirements:
+Please note that the PyTorch installation is rather large, you might need to create a temporary temp directory in order to install it. 
+
+```
+pip3 install -r requirements.txt
+```
 
 
 End with an example of getting some data out of the system or using it for a little demo
@@ -68,34 +71,4 @@ Give an example
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
