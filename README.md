@@ -8,7 +8,7 @@ Effectively detect objects from a live video stream, video file, or image by uti
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-### Prerequisites and Installations
+#### Prerequisites and Installations
 
 Have an NVIDIA CUDA-Driver capable system. This usually means having some form of NVIDIA Graphics Card installed in your system.
 
@@ -16,14 +16,15 @@ Have an NVIDIA CUDA-Driver capable system. This usually means having some form o
 * Python3-pip
 * Virtualenv 
 * Virtualenvwrapper (Optional)
+* Video capture source (Webcam)
 
 
-### Install Nvidia CUDA Drivers:
+#### Install Nvidia CUDA Drivers:
 ```
 sudo apt install nvidia-cuda-toolkit
 ```
 
-### Install Yolov3 weights & configuration, and COCO Datasets:
+#### Install Yolov3 weights & configuration, and COCO Datasets:
 Download, rename and relocate necessary weights, datasets, and yolo configuration files into required project directories.
 
 * Relocate yolov3.cfg to projects configuration directory
@@ -38,37 +39,33 @@ wget https://github.com/pjreddie/darknet/blob/master/data/coco.names
 
 ```
 
-### Install Pip3 requirements:
-Please note that the PyTorch installation is rather large, you might need to create a temporary temp directory in order to install it. 
+#### Create a new Virtual Environment
+I use virtualenvwrapper for ease of use. If you do not, then you're automatically better at me with virtual environments for going the extra mile. 
+
+```
+mkvirtualenv SpecialTopics
+```
+
+#### Install Pip3 requirements:
+
+Please note that the PyTorch installation is rather large, you might need to create a temporary temp directory in order to install it. To do so, use:
+
+```
+export TMPDIR=/path/to/temporary/temp
+```
 
 ```
 pip3 install -r requirements.txt
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running the program
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+After these installations and configurations, you should be able to execute the Python program through your Terminal or IDE like so
 
 ```
-Give an example
+python3 main.py
 ```
+OpenCV will try to capture the first capture device available.
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
