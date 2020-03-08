@@ -4,7 +4,7 @@ Effectively detect objects from a live video stream, video file, or image by uti
 
 Additional Documentation on my Google Docs file located [here](https://docs.google.com/document/d/1PbSLxxjpJVySFz90B8xDVCgukfnXE8T-18ikFa4Im5U/edit?usp=sharing)
 
-Also my half-assed attempt at explaining how the Yolo Algorhitm works [here](https://docs.google.com/document/d/1YhXyALjIhVPoSHYdTMZpPfFjiKQeeyoZsVEdrhWfBfI/edit?usp=sharing)
+Documentation explaining how the Yolo Algorhitm works [here](https://docs.google.com/document/d/1YhXyALjIhVPoSHYdTMZpPfFjiKQeeyoZsVEdrhWfBfI/edit?usp=sharing)
 
 Followed the guide from Ayoosh Kathuria on how to [Implement YoloV3 with Pytorch from Scratch](https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/).
 His article was very informative and insightful.
